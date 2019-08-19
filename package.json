@@ -1,11 +1,22 @@
 {
   "name": "my-component",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Esta es la descripción de mi component",
+  "author": {
+    "name": "miguel",
+    "email": "miguel@email.com"
+  },
+  "repository": "https://github.com/malbonm07/my-component",
+  "bugs": "https://github.com/malbonm07/my-component/issues",
+  "keywords": ["words", "go", "here"],
+  "license": "MIT",
+  "files": ["dist"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:npm": "vue-cli-service build --target lib --name my-component src/MyComponent.vue"
   },
   "dependencies": {
     "core-js": "^2.6.5",
