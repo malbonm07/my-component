@@ -1,6 +1,6 @@
 {
   "name": "my-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Esta es la descripción de mi component",
   "author": {
@@ -9,9 +9,15 @@
   },
   "repository": "https://github.com/malbonm07/my-component",
   "bugs": "https://github.com/malbonm07/my-component/issues",
-  "keywords": ["words", "go", "here"],
+  "keywords": [
+    "words",
+    "go",
+    "here"
+  ],
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
